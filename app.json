@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MIVI",
+    "slug": "mivi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mivi",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mivi.app"
+    },
+    "android": {
+      "package": "com.mivi.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
